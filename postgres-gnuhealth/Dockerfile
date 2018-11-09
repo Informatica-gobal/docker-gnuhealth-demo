@@ -1,10 +1,10 @@
-FROM postgres:9.5
+FROM postgres:9
 
 # Use our local cache
 #RUN echo 'Acquire::http { Proxy "http://apt-cacher:9999"; };' >> /etc/apt/apt.conf.d/01proxy
 
-ENV DUMPFILE="gnuhealth-3.0.1-demo-data.tar.gz"
-ENV SQLFILE="health301.sql"
+ENV DUMPFILE="gnuhealth-32-demo.sql.gz"
+ENV SQLFILE="healthdemo.sql"
 
 #VOLUME /var/lib/postgresql
 RUN apt-get update && apt-get install -y --no-install-recommends \

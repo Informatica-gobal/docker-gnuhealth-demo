@@ -81,11 +81,11 @@ with the only difference that you put in your own machine as the server (localho
 running the client on the same machine)
 
     Server: <your_machine>:8000
-    Database: health30
+    Database: health32
     User name: admin
     Password: gnusolidario
 
-Note: The version of the Tryton client must match the version of the server (3.8.x).
+Note: The version of the Tryton client must match the version of the server (4.2.x).
 A suitable client can be installed from distribution packages of your distribution or from the
 [Tryton download site](http://www.tryton.org/download.html) for OS X or Windows binaries.
 
@@ -97,8 +97,9 @@ for the procedures to install the correct version.
 Todo
 
 ## Authors and Credits
+Mainained and updated by [informatica-global.com](https://informatica-global.com) with many thanks to original creator.
 
-This setup was made by [MBSolutions](http://www.m9s.biz) in the hope, that it may be useful
+This setup was created by by [MBSolutions](http://www.m9s.biz) in the hope, that it may be useful
 for the GNU Health users. Thanks to the [GNU Health project](http://health.gnu.org/)
 for providing this free Health and Hospital Information System.
 
@@ -108,5 +109,5 @@ Parts of this setup were adopted from
 
 
 ## Support
-
-For any questions about this image and docker setup you may contact us at [support](mailto:info@m9s.biz).
+For any questions about this image and docker setup please contact [informatica-global.com](https://informatica-global.com)
+For any questions about the original image and docker setup you may contact [support](mailto:info@m9s.biz).

@@ -1,10 +1,10 @@
-# gnuhealth-demo 3.0
+# gnuhealth-demo 3.2
 
-FROM mbsolutions/tryton-server:3.8
-MAINTAINER Mathias Behrle <mbehrle@m9s.biz>
+FROM informaticaglobal/tryton-server-gnuhealth:4.2
+MAINTAINER Sherif Metwally <sherif@informatica-global.com>
 
 # Set Tryton major variable for reuse
-ENV T_MAJOR 3.8
+ENV T_MAJOR 4.2
 
 # Use our local cache
 #RUN echo 'Acquire::http { Proxy "http://apt-cacher:9999"; };' >> /etc/apt/apt.conf.d/01proxy
